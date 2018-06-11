@@ -140,13 +140,12 @@ class DiceRoller:
         print(self.title, self.diceimage)
 
 
-# main procedure
+if __name__ == '__main__':
+    # create our dice roller object
+    our_roller = DiceRoller()
 
-# create our dice roller object
-our_roller = DiceRoller()
+    # display title screen
+    our_roller.titlescreen()
 
-# display title screen
-our_roller.titlescreen()
-
-# ask info about mode
-our_roller.askmode()
+    # ask info about mode
+    our_roller.askmode()
